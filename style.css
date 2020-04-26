@@ -1,0 +1,13 @@
+/* 
+img {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+ */
+
+/* Whole document: */
+body{
+  font-family: Helvetica;
+  font-size: 12pt;
+}

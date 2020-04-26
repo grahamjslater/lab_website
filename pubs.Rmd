@@ -1,0 +1,103 @@
+---
+  title: "Publications"
+  bibliography: graham_CV_bib.bib
+  #nocite: '@*'
+---
+```{r, echo=FALSE}
+biblio <- bibtex::read.bib("graham_CV_bib.bib")
+```
+Here are publications from Graham and the lab. If you don't have access to any of these papers, please get in touch!
+
+##2019
+Presslee S., Slater, G.J. , ……., Collins M. And MacPhee R. D. (2019). [Palaeoproteomics resolves sloth, phylogeny](https://www.nature.com/articles/s41559-019-0909-z?proof=trueHere). Nature Ecology and Evolution 3 1121–1130
+
+Slater G. J. and Friscia A. R. (2019). [Hierarchy in adaptive radiation: A case study using the Carnivora (Mammalia)](https://onlinelibrary.wiley.com/doi/abs/10.1111/evo.13689). Evolution 73 524-539.
+
+Law C. J., Slater, G. J. and Mehta R. S. (2019). [Shared extremes by ectotherms and endotherms: Body elongation in mustelids is associated with small size and reduced limbs](https://onlinelibrary.wiley.com/doi/abs/10.1111/evo.13702). Evolution 73 735-749.
+
+
+##2018 
+
+Law C. J., Slater, G. J. and Mehta R. S. (2018). [Lineage Diversity and Size Disparity in Musteloidea: Testing Patterns of Adaptive Radiation Using Molecular and Fossil-Based Methods](https://academic.oup.com/sysbio/article/67/1/127/3796842). Systematic Biology 67 127–144
+
+
+##2017
+
+Slater G. J., Goldbogen J. A. and Pyenson N. D. (2017). [Independent evolution of baleen whale gigantism linked to Plio-Pleistocene ocean dynamics](http://rspb.royalsocietypublishing.org/content/284/1855/20170546.full.pdf).Proceedings of the Royal Society of London B:, Biological Sciences 284.
+
+
+##2016
+
+Hunt G. and Slater G. J. (2016). [Integrating Paleontological and, Phylogenetic Approaches to Macroevolution](https://www.annualreviews.org/doi/abs/10.1146/annurev-ecolsys-112414-054207). Annual Review of Ecology, Evolution, and Systematics, 47 189-213.
+
+Slater G. J., Cui P., Forasiepi A. M., Lenz D., Tsangaras K., Voirin B., de, Moraes-Barros N., MacPhee R. D. and Greenwood A. D. (2016). [Evolutionary relationships among extinct and extant sloths: the evidence of mitogenomes and retroviruses](https://academic.oup.com/gbe/article/8/3/607/2574116). Genome biology and evolution 8(3) 607-621.
+
+##2015
+Slater G. J. (2015). [Iterative adaptive radiations of fossil canids, show no evidence for diversity-dependent trait evolution](https://www.pnas.org/content/112/16/4897) Proceedings of the National Academy of Sciences, 112(16),, 4897-4902.
+
+Slater GJ (2015). [Not-so-early bursts and the dynamic nature of morphological diversification](https://www.pnas.org/content/112/12/3595). Proceedings of the National, Academy of Sciences, 112, 3595-3595.
+
+Revell L. J., Mahler D. L., Reynolds R. G. and Slater, G. J. (2015). [Placing cryptic, recently extinct, or hypothesized taxa into an ultrametric phylogeny using continuous character data: A case, study with the lizard *Anolis roosevelti*](https://doi.org/10.1111/evo.12628). Evolution,, 69(4), 1027-1035.
+
+##2014
+
+Slater G. J. (2014). [Correction to Phylogenetic evidence for a shift in the mode of mammalian body size evolution at the Cretaceous-Palaeogene boundary and a note on fitting macroevolutionary models to comparative paleontological datasets](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12201). Methods in Ecology and Evolution, 5, 714-718.
+
+Martin-Scheel D., Slater, G. J. , Kolokotronis S., Potter C. W.,, Rotstein D. S., Tsangaras K., Greenwood A. D., and Helgen K.M. (2014). [Ancient DNA and morphology characterize a new genus for New World monk seals](https://zookeys.pensoft.net/article/3807/). ZooKeys, 409, 1-33.
+
+Pennell M. W., Eastman J. M., Slater, G. J., Brown J. W., Uyeda J. C., FitzJohn R. G., Alfaro M. E., and Harmon L. J. (2014). [geiger v2.0: an expanded suite of methods for fitting macroevolutionary models to phylogenetic trees](https://academic.oup.com/bioinformatics/article/30/15/2216/2390619). Bioinformatics, 30, 2216-2218.
+
+Tseng Z. J., Wang X., Slater, G. J. , Takeuchi G. T., Li Q., Liu J., and Xie G. (2014). [Himalayan fossils of oldest known pantherine establish ancient origin of big cats.](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2013.2686) Proceedings of the Royal Society, B-Biological Sciences, 281, 1-7.
+
+Slater, G. J. , Pennell M. W. (2014). [Robust regression and posterior predictive simulation increase power to detect early bursts of trait evolution](https://academic.oup.com/sysbio/article/63/3/293/1647611). Systematic Biology, 63, 293-308.
+
+##2013
+
+Slater, G. J.  (2013). [Phylogenetic evidence for a shift in the, mode of mammalian body size evolution at the Cretaceous-Palaeogene, boundary](https://doi.org/10.1111/2041-210X.12084). Methods in Ecology and Evolution, 4(8), 734-744.
+
+Slater, G. J. And Harmon L. J. (2013). [Unifying fossils and, phylogenies for comparative analyses of diversification and trait, evolution](https://doi.org/10.1111/2041-210X.12091). Methods in Ecology and Evolution, 4(8), 699-702.
+
+Fabre A., Cornette R., Slater, G. J. , Argot C., Peigné S., Goswami, A. and Pouydebat E. (2013). [Getting a grip on the evolution of, grasping in musteloid carnivorans: a three-dimensional analysis of, forelimb shape.](https://doi.org/10.1111/jeb.12161) Journal of Evolutionary Biology, 26(7).
+
+Frédérich B., Sorenson L., Santini F., Slater, G. J. and Alfaro M. E., (2013). [Iterative Ecological Radiation and Convergence during the, Evolutionary History of Damselfishes (Pomacentridae).](https://doi.org/10.1086/668599) The American Naturalist, 181(1), 94-113.
+
+##2012
+Slater, G. J. , Harmon LJ, Alfaro ME (2012). [Integrating fossils with molecular phylogenies improves inference of trait evolution.](https://doi.org/10.1111/j.1558-5646.2012.01723.x) Evolution, 66(12)
+
+Rabosky D. L., Slater, G. J., and Alfaro M. E. (2012). [Clade age and species richness are decoupled across the eukaryotic tree of life.]((http://dx.doi.org/10.1371%2Fjournal.pbio.1001381)) PLoS Biology, 10(8), e1001381.
+
+Meloro C. and Slater, G. J.  (2012). [Covariation in the skull, modules of cats: the challenge of growing saber-like canines.]( http://www.tandfonline.com/doi/pdf/10.1080/02724634.2012.649328) Journal of Vertebrate Paleontology, 32(3), 677-685.
+
+Slater, G. J. , Harmon L. J., Wegmann D., Joyce P., Revell L. J., and Alfaro, M. E. (2012). [Fitting models of continuous trait evolution to incompletely sampled comparative data using approximate Bayesian computation]( https://doi.org/10.1111/j.1558-5646.2011.01474.x). Evolution, 66(3), 752-762.
+
+##2011
+
+Jaffe A. L., Slater G. J. and Alfaro ME (2011). [The evolution of island gigantism and body size variation in tortoises and turtles.](https://royalsocietypublishing.org/doi/full/10.1098/rsbl.2010.1084?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed) Biology Letters, 7(4), 558-561.
+
+Van Valkenburgh B., Curtis A., Samuels J. X., Bird D., Fulkerson B., Meachen-Samuels J., and Slater, G. J. (2011). [Aquatic adaptations in, the nose of carnivorans: evidence from the turbinates](https://doi.org/10.1111/j.1469-7580.2010.01329.x). Journal, of Anatomy, 218(3), 298-310.
+
+
+##2010
+
+Slater, G. J., Figueirido B., Louis, L., Yang, P., and Van Valkenburgh B. (2010). [Biomechanical consequences of rapid evolution in the polar bear lineage.]( http://dx.doi.org/10.1371%2Fjournal.pone.0013870) PLoS, ONE, 5(11), e13870.
+
+Figueirido B., Serrano-Alarcon F. J., Slater, G. J. and Palmqvist, P. (2010). [Shape at the, cross-roads: homoplasy and history in the evolution of the, carnivoran skull towards herbivory]( https://doi.org/10.1111/j.1420-9101.2010.02117.x). Journal of Evolutionary, Biology, 23(12), 2579-2594.
+
+Slater, G. J. , Price S. A., Santini F. and Alfaro M. E. (2010). [Diversity versus disparity and the radiation of modern cetaceans.] (https://royalsocietypublishing.org/doi/full/10.1098/rspb.2010.0408) Proceedings of the Royal Society B-Biological Sciences,, 277(1697), 3097-3104.
+
+
+##2009
+
+Slater, G. J. , Thalmann O., Leonard J. A., Schweizer R. M., Koepfli K., Pollinger J. P., Rawlence N. J., Austin J. J. Cooper A., and Wayne R. K. (2009). [Evolutionary history of the Falklands wolf](https://doi.org/10.1016/j.cub.2009.09.018). Current Biology,, 19(20), R937 - R938.
+
+Slater, G. J. and Van Valkenburgh B. (2009). [Allometry and performance: the evolution of skull form and function in felids.]( https://doi.org/10.1111/j.1420-9101.2009.01845.x) Journal of Evolutionary Biology, 22(11), 2278-2287.
+
+Slater, G. J., Dumont E. R. and Van Valkenburgh B. (2009)., [Implications of predatory specialization for cranial form and function in canids]( https://doi.org/10.1111/j.1469-7998.2009.00567.x). Journal of Zoology, 278(3), 181-188.
+
+Dumont E. R., Grosse I, and Slater, G. J. (2009). [Requirements for comparing the performance of finite element models of biological structures](https://doi.org/10.1016/j.jtbi.2008.08.017). Journal of Theoretical Biology, 256(1), 96 - 103.
+
+##2008
+
+Koepfli K., Deere K., Slater, G. J., Begg C., Begg K., Grassman L., Lucherini M., Veron G., and Wayne R. K. (2008). [Multigene phylogeny of the Mustelidae: Resolving relationships, tempo and biogeographic history of a mammalian adaptive radiation](https://doi.org/10.1186/1741-7007-6-10). BMC Biology, 6(1) 10.
+
+Slater, G. J. and Van Valkenburgh B. (2008). [Long in the tooth: evolution of sabertooth cat cranial shape.](https://doi.org/10.1666/07061.1) Paleobiology 34(3) 403-419.

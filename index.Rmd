@@ -1,0 +1,22 @@
+---
+  title: "the Slater Lab at the University of Chicago"
+---
+
+<div>
+```{r echo=FALSE, out.width="200px", fig.align='left'}
+
+my.images <- c("museum_mafia.jpg","dogs.jpg","anna_scan.jpg", "horsey", "dino_tree.png")
+
+slick<-slickR::slickR(obj = my.images, slideId = c('ex2'), height = 300,width='100%')
+
+#slick
+
+slick + settings(dots = TRUE, autoplay = TRUE, autoplaySpeed = 3000, speed=1000)
+
+```
+</div>
+
+<br/><br/><br/>
+
+
+<font size="4"> Welcome to the Slater Lab at the University of Chicago. We're a group of biologists and paleontologists who are united in our goal to understand the factors driving the evolution of biological diversity in space and time. </font>

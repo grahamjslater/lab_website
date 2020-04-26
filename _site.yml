@@ -1,0 +1,21 @@
+name: "slaterLab"
+output_dir: "."
+navbar:
+  title: "Slater Lab"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "People"
+      href: people.html
+    - text: "Equipment"
+      href: equip.html
+    - text: "Publications"
+      href: pubs.html
+    - text: "Join"
+      href: join.html      
+output:
+  html_document:
+    theme: flatly
+    css: style.css      
