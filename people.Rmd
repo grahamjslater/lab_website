@@ -4,7 +4,7 @@
 <div style= "float:left;position: relative; right: 20px;  top: 0px;">
 ```{r echo=FALSE, out.width="200px", fig.align='left'}
 
-knitr::include_graphics("glorikeet.jpg") 
+knitr::include_graphics("gsloth.jpg") 
 
 ```
 </div>
