@@ -86,7 +86,7 @@ __Alexa Lamprecht__ is a third year PhD candidate in the Integrative Biology pro
 <div style= "float:left;position: relative; right: 20px; top: 0px;">
 ```{r echo=FALSE, out.width="150px", fig.align='left'}
 
-knitr::include_graphics("davidcerny.jpg") 
+knitr::include_graphics("cerny.jpg") 
 
 ```
 </div>
