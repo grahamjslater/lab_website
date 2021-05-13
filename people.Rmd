@@ -36,6 +36,17 @@ knitr::include_graphics("Dani M Rossoni_ at FMNH.jpg")
 [__Dr. Daniela Rossoni__](https://danielamunhozrossoni.weebly.com/) is an evolutionary biologist and post-doctoral fellow at the Field Museum of Natural History. Her goal is to understand how patterns of integration and modularity affect the trajectory and the rate of phenotypic evolution over time. Her work has focused on bats, Order Chiroptera, quantitative genetics, and phylogenetic comparative methods. 
 <br/><br/><br/><br/>
 
+<div style= "float:left;position: relative; right: 20px;  top: 0px;">
+```{r echo=FALSE, out.width="150px", fig.align='left'}
+
+knitr::include_graphics("jon.jpg") 
+
+```
+</div>
+
+[__Dr. Jonathan Nations__](https://jonnynations.com) is an NSF Post-Doctoral Fellow based in the Slater lab and the mammal collections at the Field Museum of Natural History. Jon is a mammalogist by training and uses field collections, observations, and museum specimens to examine the drivers of morphological variation, primarily using small mammals as model systems. He also has some wicked stan skills and is interested in the use of Bayesian multi-level models for addressing macroevolutionary and ecological questions.
+<br/><br/><br/><br/>
+
 
 # Graduate Students
 <br/>
@@ -47,7 +58,7 @@ knitr::include_graphics("rossy.jpg")
 
 ```
 </div>
-[__Rossy Natale__](https://rossynnatale.github.io/personal_site/index.html) is a third year PhD candidate in the Integrative Biology program at UofC. She is interested in the evolution of functional and ecological morphological variation in charadriiform birds and the implications of that variation for community assembly and on potential responses to climate change. Rossy likes to run marathons through the woods in the middle of night.  
+[__Rossy Natale__](https://rossynnatale.github.io/personal_site/index.html) is a fourth year PhD candidate in the Integrative Biology program at UofC. She is interested in the evolution of functional and ecological morphological variation in charadriiform birds and the implications of that variation for community assembly and on potential responses to climate change. Rossy likes to run marathons through the woods in the middle of night.  
 <br/><br/><br/><br/>
 
 <div style= "float:left;position: relative; right: 20px; top: -7px;">
@@ -57,7 +68,7 @@ knitr::include_graphics("Anna_Wisniewski.jpeg")
 
 ```
 </div>
-[__Anna Wisniewski__](https://wisniewskianna.github.io) is a second year PhD student in the Department of the Geophysical Sciences at UofC. She is interested in mammalian phylogenetics and morphological evolution. Her dissertation work is using phylogenetic and developmental models to understand macroevolutionary patterns in horses. Anna is an accomplished competitive swimmer and professional comedian.
+[__Anna Wisniewski__](https://wisniewskianna.github.io) is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. She is interested in mammalian phylogenetics and morphological evolution. Her dissertation work is using phylogenetic and developmental models to understand macroevolutionary patterns in horses. Anna is an accomplished competitive swimmer and professional comedian.
 
 <br/><br/><br/><br/>
  
@@ -69,8 +80,8 @@ knitr::include_graphics("alexa.jpg")
 ```
 </div>
 
-__Alexa Lamprecht__ is a second year PhD student in the Integrative Biology program at UofC. She is interested in the evoluton of locomotor behavior and morphology in tetrapods, particularly cursorial mammals. When Alexa is not protecting the republic, she is can be found drawing memes on her office board.
-<br/><br/><br/><br/><br/><br/>
+__Alexa Lamprecht__ is a third year PhD candidate in the Integrative Biology program at UofC. She is interested in the evoluton of locomotor behavior and morphology in tetrapods, particularly cursorial mammals. When Alexa is not protecting the republic, she is can be found drawing memes on her office board.
+<br/><br/><br/><br/><br/>
  
 <div style= "float:left;position: relative; right: 20px; top: 0px;">
 ```{r echo=FALSE, out.width="150px", fig.align='left'}
@@ -81,4 +92,15 @@ knitr::include_graphics("cerny.jpg")
 </div>
 
 
-[__David Černý__](https://davidcerny.github.io/#hero) is a second year PhD student in the Department of the Geophysical Sciences at UofC. David is interested in how we infer phylogenetic trees of living and extinct organisms and is developing new tools to improve the paleo-phylogeneticists toolkit. Before getting into phylogenetics, David was a famous sculptor in his native Czech Republic.<br/> 
+[__David Černý__](https://davidcerny.github.io/#hero) is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. David is interested in how we infer phylogenetic trees of living and extinct organisms and is developing new tools to improve the paleo-phylogeneticists toolkit. Before getting into phylogenetics, David might have been a famous sculptor in his native Czech Republic.<br/><br/><br/><br/>
+
+
+<div style= "float:left;position: relative; right: 20px; top: 0px;">
+```{r echo=FALSE, out.width="150px", fig.align='left'}
+
+knitr::include_graphics("Melissa_Wood.jpg") 
+
+```
+</div>
+
+__Melissa Wood__ is a first year PhD student in the Department of the Geophysical Sciences at UofC. Melissa is a vertebrate paleontologist and has done field work in the American west and Turkey. Melissa is interested in mammalian commmunity responses to climate change and geologic processes. In her spare time, Melissa does yoga and collects cats.<br/> 
