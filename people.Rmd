@@ -86,13 +86,13 @@ __Alexa Lamprecht__ is a third year PhD candidate in the Integrative Biology pro
 <div style= "float:left;position: relative; right: 20px; top: 0px;">
 ```{r echo=FALSE, out.width="150px", fig.align='left'}
 
-knitr::include_graphics("cerny.jpg") 
+knitr::include_graphics("davidcerny.jpg") 
 
 ```
 </div>
 
 
-[__David Černý__](https://davidcerny.github.io/#hero) is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. David is interested in how we infer phylogenetic trees of living and extinct organisms and is developing new tools to improve the paleo-phylogeneticists toolkit. Before getting into phylogenetics, David might have been a famous sculptor in his native Czech Republic.<br/><br/><br/><br/>
+[__David Černý__](https://davidcerny.github.io/#hero) is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. David is interested in how we infer phylogenetic trees of living and extinct organisms and is developing new tools to improve the paleo-phylogeneticists toolkit. Before getting into phylogenetics, David might have been a famous sculptor in his native Czech Republic.<br/><br/><br/><br/><br/>
 
 
 <div style= "float:left;position: relative; right: 20px; top: 0px;">
