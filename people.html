@@ -13,23 +13,36 @@
 
 <title>People</title>
 
-<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -42,32 +55,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -78,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -98,40 +83,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -159,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -171,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -181,11 +142,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -197,13 +175,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -211,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -264,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -299,7 +269,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -308,53 +278,134 @@ $(document).ready(function () {
 </div>
 
 
+<div id="the-boss" class="section level2">
+<h2>The Boss</h2>
+<br/>
 <div style="float:left;position: relative; right: 20px;  top: 0px;">
 <p><img src="gsloth.jpg" width="200px" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
-<p><strong>Graham Slater</strong>: I’m a macroevolutionary paleobiologist with interests in the tempo and mode of ecomorphological diversification across space and time. I use data from living and extinct species to address these questions, typically rooted in a phylogenetic framework. Although I’m interested in general questions about evolutionary pattern and process and my students work on diverse systems, most of my own work has focused on mammalian evolution, particularly the order Carnivora.<br />
+<p><strong>Graham Slater</strong>: I’m a macroevolutionary
+paleobiologist with interests in the tempo and mode of ecomorphological
+diversification across space and time. I use data from living and
+extinct species to address these questions, typically rooted in a
+phylogenetic framework. Although I’m interested in general questions
+about evolutionary pattern and process and my students work on diverse
+systems, most of my own work has focused on mammalian evolution,
+particularly the order Carnivora.<br />
 <br/><br/><br/><br/></p>
-<div id="post-docs-and-affiliates" class="section level1">
-<h1>Post-Docs and Affiliates</h1>
+</div>
+<div id="current-graduate-students" class="section level1">
+<h1>Current Graduate Students</h1>
+<p><br/></p>
+<div style="float:left;position: relative; right: 20px; top: 0px;">
+<p><img src="Melissa_Wood.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<p><strong>Melissa Wood</strong> is a fifth year PhD Candidate in the
+Department of the Geophysical Sciences. Melissa’s dissertation research
+uses a combines vertebrate paleontology with stratigraphy to understand
+mammalian commmunity responses to climate and environmental change in
+the Eocene of North America. Melissa is coadvised with Susan Kidwell
+<br/><br/><br/><br/></p>
+<div style="float:left;position: relative; right: 20px; top: 0px;">
+<p><img src="Menna.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<p><strong>Menna Jones</strong> is a second year PhD student in the
+Department of the Geophysical Sciences. Menna is interested in the use
+of statistical and mathematical approaches to study macroevolutionary
+pattern and processes. Her dissertation work is focusing on modeling the
+causes and consequences of ecomorphological evolution and microhabitat
+use in extant and extinct frogs. <br/> <br/><br/><br/></p>
+<div style="float:left;position: relative; right: 20px; top: 0px;">
+<p><img src="Mags.jpeg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<p><strong>Magdalen Mercado</strong> is a second year PhD student in the
+Department of the Committee on Evolutionary Biology. Mags is interested
+in the interplay of genetic and environmental factors in evolutionary
+change. Her dissertation work is focusing on the evolution of the
+amniote vertebral column using a variety of different data types and
+models. <br/> <br/><br/><br/><br/><br/></p>
+<div style="float:left;position: relative; right: 20px; top: 0px;">
+<p><img src="Henry.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<p><strong>Henry Fulghum</strong> is a second year PhD student in the
+Department of the Committee on Evolutionary Biology, coadvised with
+Zhe-Xi Luo. Henry is interested in the evolution of Mesozoic mammals, in
+particular the ecomorphological diversity of non-crown mammalian clades,
+and their potential ecological interactions. <br/>
+<br/><br/><br/><br/><br/></p>
+</div>
+<div id="lab-alums" class="section level1">
+<h1>Lab Alums</h1>
 <br/>
 <div style="float:left;position: relative; right: 20px;  top: 0px;">
-<p><img src="caroline.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="Tomo.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
-<p><a href="https://carolinetomo.github.io"><strong>Dr. Caroline Parins-Fukuchi</strong></a> is the T. C. Chamberlin post-doctoral fellow in the Department of the Geophysical Sciences at UofC. Caroline is a computational evolutionary biologist and anthropologist. Her work has addressed questions ranging from phylogenetic inference to indentifying modules in complex morphological systems. In Chicago she’s returning to her roots and joining us in some morphological evolution work. Caroline can code in more languages than most CIA agents speak. <br/></p>
-<br/>
-<div style="float:left;position: relative; right: 20px;  top: 0px;">
-<p><img src="Dani%20M%20Rossoni_%20at%20FMNH.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
-</div>
-<p><a href="https://danielamunhozrossoni.weebly.com/"><strong>Dr. Daniela Rossoni</strong></a> is an evolutionary biologist and post-doctoral fellow at the Field Museum of Natural History. Her goal is to understand how patterns of integration and modularity affect the trajectory and the rate of phenotypic evolution over time. Her work has focused on bats, Order Chiroptera, quantitative genetics, and phylogenetic comparative methods. <br/><br/><br/><br/></p>
+<p><a
+href="https://eeb.utoronto.ca/profile/parins-fukuchi-tomomi-c/"><strong>Dr. C.
+Tomomi Parins-Fukuchi</strong></a> (T. C. Chamberlin Post-Doctoral
+Fellow 2019-2021): Tomo is currently Assistant Professor of Ecology and
+Evolution at University of Toronto, where he continues to pursue
+evolutionary questions relevant to biology and paleontology using
+diverse computational methods.<br/><br/><br/><br/><br/><br/><br/></p>
 <div style="float:left;position: relative; right: 20px;  top: 0px;">
 <p><img src="jon.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
-<p><a href="https://jonnynations.com"><strong>Dr. Jonathan Nations</strong></a> is an NSF Post-Doctoral Fellow based in the Slater lab and the mammal collections at the Field Museum of Natural History. Jon is a mammalogist by training and uses field collections, observations, and museum specimens to examine the drivers of morphological variation, primarily using small mammals as model systems. He also has some wicked stan skills and is interested in the use of Bayesian multi-level models for addressing macroevolutionary and ecological questions. <br/><br/><br/><br/></p>
-</div>
-<div id="graduate-students" class="section level1">
-<h1>Graduate Students</h1>
+<p><a
+href="https://www.floridamuseum.ufl.edu/people/jonathan-nations/"><strong>Dr. Jonathan
+Nations</strong></a> (NSF Post-Doctoral Fellow 2021-2024). Jon is
+currently Assistant Curator of Mammalogy at the Florida Museum of
+Natural History (University of Florida) where he continues to use field
+collections, observations, and museum specimens to examine the drivers
+of morphological variation, primarily using small mammals as model
+systems. Jon is increasingly interested in the use of complex
+statistical models, such as Bayesian multi-level models, and Artificial
+Intelligence approaches for addressing macroevolutionary and ecological
+questions. <br/><br/><br/><br/></p>
 <p><br/></p>
 <div style="float:left;position: relative; right: 20px; top: 0px;">
 <p><img src="rossy.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
-<p><a href="https://rossynnatale.github.io/personal_site/index.html"><strong>Rossy Natale</strong></a> is a fourth year PhD candidate in the Integrative Biology program at UofC. She is interested in the evolution of functional and ecological morphological variation in charadriiform birds and the implications of that variation for community assembly and on potential responses to climate change. Rossy likes to run marathons through the woods in the middle of night.<br />
+<p><a
+href="https://www.linkedin.com/in/rossy-natale-671b79103/"><strong>Dr. Rossy
+Natale</strong></a> (PhD 2023 Integrative Biology): Rossy studied the
+evolution of functional and ecological morphological variation in
+charadriiform birds and the implications of that variation for community
+assembly and on potential responses to climate change. Rossy is now a
+postdoctoral associate at the Cornell Lab of Ornithology, where she is
+continuing to use spatial statistical approaches to study the
+implications of human activity for bird populations.<br />
 <br/><br/><br/><br/></p>
+<div style="float:left;position: relative; right: 20px; top: 0px;">
+<p><img src="davidcerny.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<p><a href="https://davidcerny.github.io/#hero"><strong>Dr. David
+Černý</strong></a> (PhD 2024 Geophysical Sciences): David is interested
+in how we infer phylogenetic trees of living and extinct organisms and
+develops new methods and pipelines to improve paleo-phylogenetic
+inference. David is currently doing postdoctoral research with Mike
+Alfaro at UCLA <br/><br/><br/><br/><br/></p>
 <div style="float:left;position: relative; right: 20px; top: -7px;">
 <p><img src="Anna_Wisniewski.jpeg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
-<p><a href="https://wisniewskianna.github.io"><strong>Anna Wisniewski</strong></a> is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. She is interested in mammalian phylogenetics and morphological evolution. Her dissertation work is using phylogenetic and developmental models to understand macroevolutionary patterns in horses. Anna is an accomplished competitive swimmer and professional comedian.</p>
+<p><a
+href="https://lsa.umich.edu/earth/people/post-docs-and-visitors/anna-wisniewski.html"><strong>Dr
+Anna Wisniewski</strong></a> (PhD 2024 Geophysical Sciences). Anna’s
+dissertation work used phylogenetic and developmental models to
+understand macroevolutionary patterns in horses. Anna is now a
+Postdoctoral Fellow at the University of Michigan, where she is working
+with Luke Weaver on evolutionary and ecology trends in mammalian
+evolution across the PETM.</p>
 <p><br/><br/><br/><br/></p>
 <div style="float:left;position: relative; right: 20px; top: 0px;">
 <p><img src="alexa.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
-<p><strong>Alexa Lamprecht</strong> is a third year PhD candidate in the Integrative Biology program at UofC. She is interested in the evoluton of locomotor behavior and morphology in tetrapods, particularly cursorial mammals. When Alexa is not protecting the republic, she is can be found drawing memes on her office board. <br/><br/><br/><br/><br/></p>
-<div style="float:left;position: relative; right: 20px; top: 0px;">
-<p><img src="davidcerny.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
-</div>
-<p><a href="https://davidcerny.github.io/#hero"><strong>David Černý</strong></a> is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. David is interested in how we infer phylogenetic trees of living and extinct organisms and is developing new tools to improve the paleo-phylogeneticists toolkit. Before getting into phylogenetics, David might have been a famous sculptor in his native Czech Republic.<br/><br/><br/><br/><br/></p>
-<div style="float:left;position: relative; right: 20px; top: 0px;">
-<p><img src="Melissa_Wood.jpg" width="150px" style="display: block; margin: auto auto auto 0;" /></p>
-</div>
-<p><strong>Melissa Wood</strong> is a first year PhD student in the Department of the Geophysical Sciences at UofC. Melissa is a vertebrate paleontologist and has done field work in the American west and Turkey. Melissa is interested in mammalian commmunity responses to climate change and geologic processes. In her spare time, Melissa does yoga and collects cats.<br/></p>
+<p><a
+href="https://www.amnh.org/research/staff-directory/alexa-wimberly"><strong>Dr. Alexa
+Wimberly</strong></a> (PhD 2024 Integrative Biology): Alexa’s
+dissertation work focused on the evolution of locomotor behavior and
+morphology in tetrapods, particularly cursorial mammals. Alexa is
+currently a postdoctoral fellow in vertebrate paleontology at the
+American Museum of Natural History. <br/><br/><br/><br/><br/></p>
 </div>
 
 
@@ -366,7 +417,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -384,7 +435,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

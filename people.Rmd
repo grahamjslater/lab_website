@@ -1,6 +1,9 @@
 ---
   title: "People"
 ---
+
+## The Boss
+<br/>
 <div style= "float:left;position: relative; right: 20px;  top: 0px;">
 ```{r echo=FALSE, out.width="200px", fig.align='left'}
 
@@ -12,29 +15,68 @@ knitr::include_graphics("gsloth.jpg")
 __Graham Slater__: I'm a macroevolutionary paleobiologist with interests in the tempo and mode of ecomorphological diversification across space and time. I use data from living and extinct species to address these questions, typically rooted in a phylogenetic framework. Although I'm interested in general questions about evolutionary pattern and process and my students work on diverse systems, most of my own work has focused on mammalian evolution, particularly the order Carnivora.  
 <br/><br/><br/><br/>
 
-# Post-Docs and Affiliates
+
+
+
+# Current Graduate Students
 <br/>
-<div style= "float:left;position: relative; right: 20px;  top: 0px;">
+
+
+<div style= "float:left;position: relative; right: 20px; top: 0px;">
 ```{r echo=FALSE, out.width="150px", fig.align='left'}
 
-knitr::include_graphics("caroline.jpg") 
+knitr::include_graphics("Melissa_Wood.jpg") 
 
 ```
 </div>
 
-[__Dr. Caroline Parins-Fukuchi__](https://carolinetomo.github.io) is the T. C. Chamberlin post-doctoral fellow in the Department of the Geophysical Sciences at UofC. Caroline is a computational evolutionary biologist and anthropologist. Her work has addressed questions ranging from phylogenetic inference to indentifying  modules in complex morphological systems. In Chicago she's returning to her roots and joining us in some morphological evolution work. Caroline can code in more languages than most CIA agents speak. <br/>
+__Melissa Wood__ is a fifth year PhD Candidate in the Department of the Geophysical Sciences. Melissa's dissertation research uses a combines vertebrate paleontology with stratigraphy to understand mammalian commmunity responses to climate and environmental change in the Eocene of North America. Melissa is coadvised with Susan Kidwell <br/><br/><br/><br/> 
 
-<br/>
-<div style= "float:left;position: relative; right: 20px;  top: 0px;">
+<div style= "float:left;position: relative; right: 20px; top: 0px;">
 ```{r echo=FALSE, out.width="150px", fig.align='left'}
 
-knitr::include_graphics("Dani M Rossoni_ at FMNH.jpg") 
+knitr::include_graphics("Menna.jpg") 
 
 ```
 </div>
 
-[__Dr. Daniela Rossoni__](https://danielamunhozrossoni.weebly.com/) is an evolutionary biologist and post-doctoral fellow at the Field Museum of Natural History. Her goal is to understand how patterns of integration and modularity affect the trajectory and the rate of phenotypic evolution over time. Her work has focused on bats, Order Chiroptera, quantitative genetics, and phylogenetic comparative methods. 
-<br/><br/><br/><br/>
+__Menna Jones__ is a second year PhD student in the Department of the Geophysical Sciences. Menna is interested in the use of statistical and mathematical approaches to study macroevolutionary pattern and processes. Her dissertation work is focusing on modeling the causes and consequences of ecomorphological evolution and microhabitat use in extant and extinct frogs. <br/> <br/><br/><br/>
+
+
+<div style= "float:left;position: relative; right: 20px; top: 0px;">
+```{r echo=FALSE, out.width="150px", fig.align='left'}
+
+knitr::include_graphics("Mags.jpeg") 
+
+```
+</div>
+
+__Magdalen Mercado__ is a second year PhD student in the Department of the Committee on Evolutionary Biology. Mags is interested in the interplay of genetic and environmental factors in evolutionary change. Her dissertation work is focusing on the evolution of the amniote vertebral column using a variety of different data types and models. <br/> <br/><br/><br/><br/><br/>
+
+<div style= "float:left;position: relative; right: 20px; top: 0px;">
+```{r echo=FALSE, out.width="150px", fig.align='left'}
+
+knitr::include_graphics("Henry.jpg") 
+
+```
+</div>
+
+__Henry Fulghum__ is a second year PhD student in the Department of the Committee on Evolutionary Biology, coadvised with Zhe-Xi Luo. Henry is interested in the evolution of Mesozoic mammals, in particular the ecomorphological diversity of non-crown mammalian clades, and their potential ecological interactions. <br/> <br/><br/><br/><br/><br/>
+
+
+# Lab Alums
+<br/>
+<div style= "float:left;position: relative; right: 20px;  top: 0px;">
+```{r echo=FALSE, out.width="150px", fig.align='left'}
+
+knitr::include_graphics("Tomo.jpg") 
+
+```
+</div>
+
+[__Dr. C. Tomomi Parins-Fukuchi__](https://eeb.utoronto.ca/profile/parins-fukuchi-tomomi-c/) (T. C. Chamberlin Post-Doctoral Fellow 2019-2021): Tomo is currently Assistant Professor of Ecology and Evolution at University of Toronto, where he continues to pursue evolutionary questions relevant to biology and paleontology using diverse computational methods.<br/><br/><br/><br/><br/><br/><br/>
+
+
 
 <div style= "float:left;position: relative; right: 20px;  top: 0px;">
 ```{r echo=FALSE, out.width="150px", fig.align='left'}
@@ -44,11 +86,9 @@ knitr::include_graphics("jon.jpg")
 ```
 </div>
 
-[__Dr. Jonathan Nations__](https://jonnynations.com) is an NSF Post-Doctoral Fellow based in the Slater lab and the mammal collections at the Field Museum of Natural History. Jon is a mammalogist by training and uses field collections, observations, and museum specimens to examine the drivers of morphological variation, primarily using small mammals as model systems. He also has some wicked stan skills and is interested in the use of Bayesian multi-level models for addressing macroevolutionary and ecological questions.
+[__Dr. Jonathan Nations__](https://www.floridamuseum.ufl.edu/people/jonathan-nations/) (NSF Post-Doctoral Fellow 2021-2024). Jon is currently Assistant Curator of Mammalogy at the Florida Museum of Natural History (University of Florida) where he continues to use field collections, observations, and museum specimens to examine the drivers of morphological variation, primarily using small mammals as model systems. Jon is increasingly interested in the use of complex statistical models, such as Bayesian multi-level models, and Artificial Intelligence approaches for addressing macroevolutionary and ecological questions.
 <br/><br/><br/><br/>
 
-
-# Graduate Students
 <br/>
 
 <div style= "float:left;position: relative; right: 20px; top: 0px;">
@@ -58,8 +98,20 @@ knitr::include_graphics("rossy.jpg")
 
 ```
 </div>
-[__Rossy Natale__](https://rossynnatale.github.io/personal_site/index.html) is a fourth year PhD candidate in the Integrative Biology program at UofC. She is interested in the evolution of functional and ecological morphological variation in charadriiform birds and the implications of that variation for community assembly and on potential responses to climate change. Rossy likes to run marathons through the woods in the middle of night.  
+[__Dr. Rossy Natale__](https://www.linkedin.com/in/rossy-natale-671b79103/) (PhD 2023 Integrative Biology): Rossy studied the evolution of functional and ecological morphological variation in charadriiform birds and the implications of that variation for community assembly and on potential responses to climate change. Rossy is now a postdoctoral associate at the Cornell Lab of Ornithology, where she is continuing to use spatial statistical approaches to study the implications of human activity for bird populations.  
 <br/><br/><br/><br/>
+
+<div style= "float:left;position: relative; right: 20px; top: 0px;">
+```{r echo=FALSE, out.width="150px", fig.align='left'}
+
+knitr::include_graphics("davidcerny.jpg") 
+
+```
+</div>
+
+
+[__Dr. David Černý__](https://davidcerny.github.io/#hero) (PhD 2024 Geophysical Sciences): David is interested in how we infer phylogenetic trees of living and extinct organisms and develops new methods and pipelines to improve paleo-phylogenetic inference. David is currently doing postdoctoral research with Mike Alfaro at UCLA <br/><br/><br/><br/><br/>
+
 
 <div style= "float:left;position: relative; right: 20px; top: -7px;">
 ```{r echo=FALSE, out.width="150px", fig.align='left'}
@@ -68,7 +120,7 @@ knitr::include_graphics("Anna_Wisniewski.jpeg")
 
 ```
 </div>
-[__Anna Wisniewski__](https://wisniewskianna.github.io) is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. She is interested in mammalian phylogenetics and morphological evolution. Her dissertation work is using phylogenetic and developmental models to understand macroevolutionary patterns in horses. Anna is an accomplished competitive swimmer and professional comedian.
+[__Dr Anna Wisniewski__](https://lsa.umich.edu/earth/people/post-docs-and-visitors/anna-wisniewski.html) (PhD 2024 Geophysical Sciences). Anna's dissertation work used phylogenetic and developmental models to understand macroevolutionary patterns in horses. Anna is now a Postdoctoral Fellow at the University of Michigan, where she is working with Luke Weaver on evolutionary and ecology trends in mammalian evolution across the PETM.
 
 <br/><br/><br/><br/>
  
@@ -80,27 +132,6 @@ knitr::include_graphics("alexa.jpg")
 ```
 </div>
 
-__Alexa Lamprecht__ is a third year PhD candidate in the Integrative Biology program at UofC. She is interested in the evoluton of locomotor behavior and morphology in tetrapods, particularly cursorial mammals. When Alexa is not protecting the republic, she is can be found drawing memes on her office board.
+[__Dr. Alexa Wimberly__](https://www.amnh.org/research/staff-directory/alexa-wimberly) (PhD 2024 Integrative Biology): Alexa's dissertation work focused on the evolution of locomotor behavior and morphology in tetrapods, particularly cursorial mammals. Alexa is currently a postdoctoral fellow in vertebrate paleontology at the American Museum of Natural History.
 <br/><br/><br/><br/><br/>
  
-<div style= "float:left;position: relative; right: 20px; top: 0px;">
-```{r echo=FALSE, out.width="150px", fig.align='left'}
-
-knitr::include_graphics("cerny.jpg") 
-
-```
-</div>
-
-
-[__David Černý__](https://davidcerny.github.io/#hero) is a third year PhD candidate in the Department of the Geophysical Sciences at UofC. David is interested in how we infer phylogenetic trees of living and extinct organisms and is developing new tools to improve the paleo-phylogeneticists toolkit. Before getting into phylogenetics, David might have been a famous sculptor in his native Czech Republic.<br/><br/><br/><br/><br/>
-
-
-<div style= "float:left;position: relative; right: 20px; top: 0px;">
-```{r echo=FALSE, out.width="150px", fig.align='left'}
-
-knitr::include_graphics("Melissa_Wood.jpg") 
-
-```
-</div>
-
-__Melissa Wood__ is a first year PhD student in the Department of the Geophysical Sciences at UofC. Melissa is a vertebrate paleontologist and has done field work in the American west and Turkey. Melissa is interested in mammalian commmunity responses to climate change and geologic processes. In her spare time, Melissa does yoga and collects cats.<br/> 
