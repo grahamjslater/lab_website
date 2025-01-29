@@ -8,10 +8,43 @@
 ```
 Here are publications from Graham and the lab. If you don't have access to any of these papers, please get in touch!
 
+__2024__
+
+Park, T., Burin, G., Lazo-Cancino, D., Rees, J. P. G., Rule, J. P., Slater, G.J., and Cooper, N. (2024) [Charting the course of pinniped evolution: insights from molecular phylogeny and fossil record integration](https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpae061/7655703?login=true&utm_source=TrendMD&utm_medium=cpc&utm_campaign=Evolution_TrendMD_0) Evolution 78 1212-1226
+
+Xu, X. and Natale, R. (2024) [Correlated evolution of beak and braincase morphology is present only in select bird clades](https://onlinelibrary.wiley.com/doi/full/10.1002/jmor.21703) Journal of Morphology 285 e21703
+
+__2023__
+
+Černý, D., van Els, P., Natale, R., and Gregory, S. M. S (2023) [A new genus-group name for Burhinus bistriatus (Wagler, 1829) and Burhinus superciliaris (Tschudi, 1843)](https://www.researchgate.net/profile/David-Cerny-2/publication/370896960_A_new_genus-group_name_for_Burhinus_bistriatus_Wagler_1829_and_Burhinus_superciliaris_Tschudi_1843/links/6467b94066b4cb4f73c1a926/A-new-genus-group-name-for-Burhinus-bistriatus-Wagler-1829-and-Burhinus-superciliaris-Tschudi-1843.pdf) Avian Systematics 1 31-43
+
+Černý, D. and Simonoff A. L. (2023) [Statistical evaluation of character support reveals the instability of higher-level dinosaur phylogeny](https://www.nature.com/articles/s41598-023-35784-3) Scientific Reports 13 9273 (Ashley Simonoff was an undergraduate author)
+
+Machado, F. A., Mongle, C. S.,  Slater, G. J., Penna, A., Wisniewski, A. L., Soffin, A. Dutra, V., and Uyeda, J. C. (2023) [Rules of teeth development align microevolution with macroevolution in extant and extinct primates](https://www.nature.com/articles/s41559-023-02167-w.pdf) Nature Ecology and Evolution 10 1729-1739
+
+Wimberly, A. N. (2023) [Predicting body mass in Ruminantia using postcranial measurements](https://onlinelibrary.wiley.com/doi/full/10.1002/jmor.21636) Journal of Morphology 284 e21636
+
+Wisniewski, A. L., Nations, J. A., and Slater, G. J. (2023) [Bayesian prediction of multivariate ecology from phenotypic data yields new insights into the diets of extant and extinct taxa](https://www.journals.uchicago.edu/doi/full/10.1086/725055) The American Naturalist 202 192-215
+
+Burin, G., Park, T., James, T. D., Slater, G. J., and Cooper N (2023) [The dynamic adaptive landscape of cetacean body size](https://www.sciencedirect.com/science/article/pii/S0960982223003020) Current Biology 33 1787-1794
+
+__2022__
+
+Černý, D. and Natale R. (2022) [Comprehensive taxon sampling and vetted fossils help clarify the time tree of shorebirds (Aves, Charadriiformes)](https://www.sciencedirect.com/science/article/pii/S1055790322002330) Molecular phylogenetics and Evolution 177 107620
+
+Natale, R. and Slater, G. J. (2022) [The effects of foraging ecology and allometry on avian skull shape vary across levels of phylogeny](https://www.journals.uchicago.edu/doi/full/10.1086/720745) The American Naturalist 200 E174-E188
+
+Slater, G. J. (2022) [Topographically distinct adaptive landscapes for teeth, skeletons, and size explain the adaptive radiation of Carnivora (Mammalia)](https://academic.oup.com/evolut/article-pdf/76/9/2049/49870008/evolut2049.pdf) Evolution 76 2049 - 2066
+
+Wisniewski, A. L., Lloyd, G. T. and Slater, G. J. (2022) [Extant species fail to estimate ancestral geographical ranges at older nodes in primate phylogeny](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2021.2535) Proceedings of Royal Society B 289 20212535
 
 __2021__
 
-Lloyd, G. T. and Slater, G.J. (2021). [A total-group phylogenetic metatree for Cetacea and the importance of fossil data in diversification analyses](https://academic.oup.com/sysbio/advance-article-abstract/doi/10.1093/sysbio/syab002/6122448?redirectedFrom=fulltext). Systematic Biology syab002.
+Černý, D., Madzia, D. and Slater, G .J. (2021) [Empirical and methodological challenges to the model-based inference of diversification rates in extinct clades](https://academic.oup.com/sysbio/article/71/1/153/6295892) Systematic Biology 71 153-171
+
+Lloyd, G. T. and Slater, G.J. (2021). [A total-group phylogenetic metatree for Cetacea and the importance of fossil data in diversification analyses](https://academic.oup.com/sysbio/article/70/5/922/6122448). Systematic Biology 70 922-939.
+
+Wimberly, A. N., Slater, G. J., and Granatosky, M. C. (2021) [Evolutionary history of quadrupedal walking gaits shows mammalian release from locomotor constraint](https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2021.0937) Proceedings of the Royal Society B 288 20210937
 
 __2020__
 
